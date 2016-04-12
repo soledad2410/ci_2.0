@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates>
+<layouts>
+    <layout>
+        <name>default</name>
+        <title>Layout mặc định</title>
+        <positions>
+             <position>
+                <name>top_nav_mobile</name>
+                <title>Vị trí danh mục trên cùng bản mobile</title>
+            </position>
+            <position>
+                <name>slideshow_mobile</name>
+                <title>Vị trí slideshow bản mobile</title>
+            </position>
+
+            <position>
+                <name>bottom_content_mobile</name>
+                <title>Vị trí dưới bản mobile</title>
+            </position>
+    </positions>
+    </layout>
+
+</layouts>
+<block_templates>
+    <block_template>
+        <title>Template khối danh mục chính mobile</title>
+        <type>menu</type>
+        <file>nav_top_mobile</file>
+        <description>Template khối danh mục chính mobile</description>
+    </block_template>
+    <block_template>
+        <title>Template khối slideshow mobile</title>
+        <type>media</type>
+        <file>slideshow_mobile</file>
+        <description>Template khối slideshow chính mobile</description>
+    </block_template>
+     <block_template>
+        <title>Template khối tin tức mới nhất mobile</title>
+        <type>news</type>
+        <file>news_hot_mobile</file>
+        <description>Template khối tin tức mới nhất mobile</description>
+    </block_template>
+     <block_template>
+        <title>Template khối hỗ trợ khách hàng mobile</title>
+        <type>support</type>
+        <file>support_mobile</file>
+        <description>Template khối hỗ trợ khách hàng mobile</description>
+    </block_template>
+     <block_template>
+        <title>Template khối đăng ký nhận bản tin</title>
+        <type>ultilities</type>
+        <file>register_mail_mobile</file>
+        <description>Template khối đăng ký nhận bản tin</description>
+    </block_template> 
+     <block_template>
+        <title>Template khối sản phẩm trang chủ</title>
+        <type>product</type>
+        <file>product_mobile</file>
+        <description>Template khối sản phẩm trang chủ</description>
+    </block_template>                   
+</block_templates>
+<cate_templates>
+    <cate_template>
+        <title>Template trang riêng</title>
+        <module>news_cate</module>
+        <file>custom_page</file>
+        <description>Template trang riêng danh mục</description>
+    </cate_template>
+    <cate_template>
+        <title>Template mặc định</title>
+        <module>news_cate</module>
+        <file></file>
+        <description>Template mặc định danh sách tin tức</description>
+    </cate_template>
+    <cate_template>
+        <title>Template mặc định</title>
+        <module>product_cate</module>
+        <file></file>
+        <description>Template mặc định hiển thị list sản phẩm</description>
+    </cate_template>
+    <cate_template>
+        <title>Template mặc định</title>
+        <module>gallery_cate</module>
+        <file></file>
+        <description>Template mặc định trang album ảnh</description>
+    </cate_template>
+    <cate_template>
+        <title>Template mặc định trang liên hệ</title>
+        <module>contact_index</module>
+        <file></file>
+        <description>Template mặc định trang liên hệ</description>
+    </cate_template>
+</cate_templates>
+</templates>

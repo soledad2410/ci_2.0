@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates>
+<layouts>
+    <layout>
+        <name>home</name>
+        <title>Layout mặc định trang chủ - 1 cột</title>
+        <positions>
+             <position>
+                <name>main_nav</name>
+                <title>Vị trí danh mục chính</title>
+            </position>
+             <position>
+                <name>top_home_content</name>
+                <title>Vị trí top content trang chủ</title>
+            </position>
+              <position>
+                <name>midle_home_content</name>
+                <title>Vị trí midle content trang chủ</title>
+            </position>
+           <position>
+                <name>bottom_content</name>
+                <title>Vị trí bên dưới nội dung website</title>
+            </position>
+            <position>
+                <name>footer_link</name>
+                <title>Vị trí link chân trang</title>
+            </position>
+            <position>
+                <name>right_content</name>
+                <title>Vị trí cột bên phải</title>
+            </position>
+     </positions>
+    </layout>
+    <layout>
+        <name>default</name>
+        <title>Layout giao diện trang con website</title>
+        <positions>
+             <position>
+                <name>main_nav</name>
+                <title>Vị trí danh mục chính</title>
+            </position>
+            <position>
+                <name>home_content</name>
+                <title>Vị trí content</title>
+            </position>
+            <position>
+                <name>right_content</name>
+                <title>Vị trí cột bên phải</title>
+            </position>
+            <position>
+                <name>footer_link</name>
+                <title>Vị trí link chân trang</title>
+            </position>
+           <position>
+                <name>social_box</name>
+                <title>Vị trí khối facebook hỗ trợ</title>
+            </position>
+            <position>
+                <name>bottom_content</name>
+                <title>Vị trí bên dưới nội dung website</title>
+            </position>
+     </positions>
+    </layout>
+</layouts>
+<block_templates>
+    <block_template>
+        <title>Template danh mục chính</title>
+        <type>menu</type>
+        <file>nav_main</file>
+        <description>Template danh mục chính</description>
+    </block_template>
+    <block_template>
+        <title>Template Khối banner</title>
+        <type>media</type>
+        <file>banner</file>
+        <description>Template loại khối media Hiển thị banner</description>
+    </block_template>
+    <block_template>
+        <title>Template danh mục phải trang chủ</title>
+        <type>menu</type>
+        <file>nav_home_right</file>
+        <description>Template danh mục tin tức, sản phâm bên phải</description>
+    </block_template>
+    <block_template>
+        <title>Template danh mục phía dưới trang chủ</title>
+        <type>menu</type>
+        <file>nav_home_bottom</file>
+        <description>Template danh mục tin tức, sản phâm bên dưới trang chủ</description>
+    </block_template>
+    <block_template>
+        <title>Template khối logo chân trang</title>
+        <type>media</type>
+        <file>footer_logo</file>
+        <description>Template khối logo chân trang</description>
+    </block_template> 
+     <block_template>
+        <title>Template danh mục bên trái trang chủ</title>
+        <type>menu</type>
+        <file>nav_sub</file>
+        <description>Template danh mục tin tức, sản phâm bên trái trang chủ</description>
+    </block_template>
+    <block_template>
+        <title>Template Khối slideshow sản phẩm</title>
+        <type>product</type>
+        <file>slide_product</file>
+        <description>Template loại khối sảnh phẩm Hiển thị slideshow ảnh</description>
+    </block_template>
+    <block_template>
+        <title>Template Khối các tab sản phẩm trang chủ</title>
+        <type>ultilities</type>
+        <file>product_home</file>
+        <description>Template Khối các tab sản phẩm trang chủ</description>
+    </block_template>
+        <block_template>
+        <title>Template Khối hỗ trợ trực tuyên</title>
+        <type>support</type>
+        <file>support_right</file>
+        <description>Template Khối hỗ trợ trực tuyến</description>
+    </block_template>
+    <block_template>
+        <title>Template Khối tìm kiếm</title>
+        <type>ultilities</type>
+        <file>search_right</file>
+        <description>Template Khối tìm kiếm</description>
+    </block_template>
+    <block_template>
+        <title>Template Khối loại sản phẩm</title>
+        <type>ultilities</type>
+        <file>producttype_right</file>
+        <description>Template Khối loại sản phẩm</description>
+    </block_template>    
+</block_templates>
+<cate_templates>
+    <cate_template>
+        <title>Template trang riêng</title>
+        <module>news_cate</module>
+        <file>custom_page</file>
+        <description>Template trang riêng danh mục</description>
+    </cate_template>
+    <cate_template>
+        <title>Template mặc định</title>
+        <module>news_cate</module>
+        <file></file>
+        <description>Template mặc định danh sách tin tức</description>
+    </cate_template>
+    <cate_template>
+        <title>Template mặc định</title>
+        <module>product_cate</module>
+        <file></file>
+        <description>Template mặc định hiển thị list sản phẩm</description>
+    </cate_template>
+    <cate_template>
+        <title>Template mặc định</title>
+        <module>gallery_cate</module>
+        <file></file>
+        <description>Template mặc định trang album ảnh</description>
+    </cate_template>
+    <cate_template>
+        <title>Template mặc định trang liên hệ</title>
+        <module>contact_index</module>
+        <file></file>
+        <description>Template mặc định trang liên hệ</description>
+    </cate_template>
+</cate_templates>
+</templates>

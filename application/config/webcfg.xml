@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modules>
+<module>
+  <name>article</name>
+    <title>Module tin tức</title>
+        <roles>
+            <role>
+                <name>add_article</name>
+                <title>Thêm bài viết</title>
+            </role>
+            <role>
+                <name>delete_article</name>
+                <title>Xóa bài viết</title>
+            </role>
+        </roles>
+    <funcion>add_article</funcion>
+    <funcion>delete_article</funcion>
+</module>
+<module>
+<name>admin</name>
+    <title>Module quản lý trang chính</title>
+    <roles>
+        <role>
+            <name>index</name>
+            <title>Trang chủ quản lý</title>
+        </role>
+        <role>
+            <name>add_user</name>
+            <title>Thêm mới thành viên</title>
+        </role>
+    </roles>
+</module>
+</modules>

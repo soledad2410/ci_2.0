@@ -1,0 +1,122 @@
+.layout-block{border:1px dotted silver;float:left;margin:5px 2px 5px 2px;}
+.block-config{width:150px;float:right;}
+.config{position: absolute;display: none;z-index: 989;}
+
+#layout-config a{color:#CCCCCC ;cursor: pointer;text-decoration: none!important;}
+#layout-config{background-color: #2D2D2D;-moz-box-shadow: -2px 2px 2px 2px #888888;background-position: 0 -138px;background-repeat: repeat-x;border-bottom: 1px solid #000000;font-size: 24px;height: 29px;opacity: 1;position: fixed;top: 0;width: 98%;z-index: 990;font: 13px/27px Arial,sans-serif;color: silver;float:left;}
+#options-layout-config{
+ border-bottom: 1px solid #000000;
+    font-size: 24px;
+    height: 29px;
+    position: fixed;
+    top: 0;
+    right:0;
+    width: 2%;
+    z-index: 990;
+    font: 13px/27px Arial,sans-serif;
+    color: silver;
+    border-left:1px solid #969696;
+    text-align: center;
+    
+}
+.widget{
+    position: relative;
+}
+#layout-config li.logout  {background: url("logout.png") no-repeat right;padding-left:16px;float:right!important;margin-right:10px;width:100px;}
+#options-layout-config .hide-taskbar{
+       background: url("show-hide.png") 0 11px no-repeat;
+   width: 17px;
+   height:29px;
+  margin:0px 7px 0px 7px;
+   cursor: pointer;
+
+}
+
+.admin-content-config{background: url("config.png") no-repeat;z-index:99;width: 16px;height: 16px;position: absolute;cursor: pointer;z-index: 990;}
+.admin-content-config:hover{background-color: silver;}
+.admin-content-task{position: absolute;margin-top: 16px;margin-left:5px;z-index: 100;background: white;border:1px solid #F0EBEB;padding:5px;display: none;}
+.admin-content-task li{list-style: none;line-height: 10px;padding:2px;text-align: left!important;}
+.admin-content-task li:hover{background: silver;color:white;}
+.admin-content-task a{ font: 13px/27px Arial,sans-serif;color: black;text-decoration: none;text-align: left!important;}
+.admin-content-task a:hover{color:white}
+#options-layout-config .show-taskbar{
+   background: url("show-hide.png") 0 -17px no-repeat;
+   width: 17px;
+   height:29px;
+   margin:7px 7px 0px 7px;
+   cursor: pointer;
+}
+#layout-config ul li{
+    float:left;
+    margin-left: 15px;
+    display: block;
+    text-align: center;
+    line-height: 29px;
+    padding: 0px 5px 0px 5px;
+    cursor: pointer;
+    border-top:2px solid #2D2D2D;
+   
+    
+}
+#layout-config ul li:hover{
+    background: #808080;
+    border-top: 2px solid #DD4B39 !important;
+    
+}
+
+
+#layout-config .clock{float:right!important;margin-right:10px;}
+#layout-config .hide{
+    background: url('hide.png') no-repeat right;
+    padding-right: 26px;
+    height:24px;
+}
+
+.admin-task{
+    display: block;
+    background: white!important;
+    width: 150px;
+    display:none;
+    
+}
+.admin-task ul{
+    background: white!important;
+     
+  
+}
+.admin-task li{border-top: none!important;} 
+.admin-task ul li:hover {
+   color:#000!important;
+   background: white!important;
+   border-top: none!important;}
+
+.admin-task li a{
+    color:blue!important;
+}
+li.options-task:hover{
+    background: white!important;color:#3366CC !important
+}
+li.options-task:hover a{
+color:#3366CC !important;   
+
+}
+li.options-task a:hover{
+    color:#000!important;
+}
+li.options-task{
+    width: 150px;
+}
+li.options-task span{
+    border-color: #C0C0C0 transparent transparent;
+    border-style: solid dashed dashed;
+    border-width: 3px 3px 0;
+    display: inline-block;
+    font-size: 0;
+    height: 0;
+    left: 4px;
+    line-height: 0;
+    padding-top: 1px;
+    position: relative;
+    top: -1px;
+    width: 0;
+}

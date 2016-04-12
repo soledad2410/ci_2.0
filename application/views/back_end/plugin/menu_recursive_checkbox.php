@@ -1,0 +1,1 @@
+<p style="padding-left: <?=$menu['menu_level']*20?>px;"><input class="menu_check" type="checkbox" name="menu_ids[]" value="<?=$menu['menu_id']?>" <?if(($menu_array) AND in_array($menu['menu_id'],$menu_array)){echo'checked="checked"';}?>/> &nbsp;&nbsp;<?=$menu['menu_title']?></p>
